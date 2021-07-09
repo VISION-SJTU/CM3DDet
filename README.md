@@ -20,29 +20,9 @@ Ming Zhu, Chao Ma, Pan Ji, Xiaokang Yang
 <img src="https://github.com/VISION-SJTU/Cross-modality-3d-object-detection/blob/main/paper_materials/ablation_study.png" width='1500'/><br/>
 
 ## Code
-:herb: **The code of Cross-Modality 3D Object Detection is comming soon!!**
-- 
-- 
-- 
-
-Test the original performance on VOT2018 dataset, please use the following command.
-```
-cd pysot/experiments/siamrpn_r50_l234_dwxcorr
-python -u ../../tools/test_original.py 	\
-	--snapshot model.pth 	\ # model path
-	--dataset VOT2018 	\ # dataset name
-	--config config.yaml	  # config file
-```
-Test IoU attack on VOT2018 dataset, please use the following command.
-```
-cd pysot/experiments/siamrpn_r50_l234_dwxcorr
-python -u ../../tools/test_IoU_attack.py 	\
-	--snapshot model.pth 	\ # model path
-	--dataset VOT2018 	\ # dataset name
-	--config config.yaml	  # config file
-```
-
-For the adversarial attack of other datasets, you should change the dataset name as mentioned above.
+:herb: **The code of Cross-Modality 3D Object Detection is released!!**
+- We adopt PointRCNN as our baseline.
+- The useage is same with PointRCNN, yu can refer to <https://github.com/sshaoshuai/PointRCNN>
 
 
 ## Citation
