@@ -10,7 +10,7 @@ Ming Zhu, Chao Ma, Pan Ji, Xiaokang Yang
 
 <img src="https://github.com/VISION-SJTU/Cross-modality-3d-object-detection/blob/main/paper_materials/main_architecture.png" width='1500'/><br/>
 
-  In this paper, we focus on exploring the fusion of images and point clouds for 3D object detection in view of the complementary nature of the two modalities, i.e., images possess more semantic information while point clouds specialize in distance sensing. To this end, we present a novel twostage multi-modal fusion network for 3D object detection, taking both binocular images and raw point clouds as input. The whole architecture facilitates two-stage fusion. The first stage aims at producing 3D proposals through sparse pointwise feature fusion. Within the first stage, we further exploit a joint anchor mechanism that enables the network to utilize 2D-3D classification and regression simultaneously for better proposal generation. The second stage works on the 2D and 3D proposal regions and fuses their dense features. In addition, we propose to use pseudo LiDAR points from stereo matching as a data augmentation method to densify the LiDAR points, as we observe that objects missed by the detection network mostly have too few points especially for far-away objects. Our experiments on the KITTI dataset show that the proposed multi-stage fusion helps the network to learn better representations.
+  In this paper, we focus on exploring the fusion of images and point clouds for 3D object detection in view of the complementary nature of the two modalities, i.e., images possess more semantic information while point clouds specialize in distance sensing.
 
 ## Results
 
@@ -18,7 +18,7 @@ Ming Zhu, Chao Ma, Pan Ji, Xiaokang Yang
 We evaluate our proposed 3D object detector on the public KITTI [1] benchmark and compare it with previous state-of-the-art methods in both 3D object detection and 2D object detection tasks. Extensive ablation study is also conducted which evaluates how different components affect our model.
 
 <img src="https://github.com/VISION-SJTU/Cross-modality-3d-object-detection/blob/main/paper_materials/ablation_study.png" width='1500'/><br/>
-To further analyze the ability of our proposed deeply fused multi-modal 3D object detection method, we conduct extensive ablation studies on the KITTI train/val set to explore the effects of our components. We use the official training and validation split and accumulate the evaluation results over the whole training set. The ablation study results are shown in Table 2. Our baseline model only uses LiDAR as input without any fusion with images.
+To further analyze the ability of our proposed deeply fused multi-modal 3D object detection method, we conduct extensive ablation studies on the KITTI train/val set to explore the effects of our components.
 
 ## Code
 :herb: **The code of Cross-Modality 3D Object Detection is comming soon!!**
