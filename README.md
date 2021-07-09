@@ -22,7 +22,7 @@ Ming Zhu, Chao Ma, Pan Ji, Xiaokang Yang
 ## Code
 :herb: **The code of Cross-Modality 3D Object Detection is released!!**
 - We adopt PointRCNN as our baseline.
-- The useage is same with PointRCNN, yu can refer to <https://github.com/sshaoshuai/PointRCNN>
+- The useage is same with PointRCNN, you can refer to <https://github.com/sshaoshuai/PointRCNN>
 
 
 ## Citation
