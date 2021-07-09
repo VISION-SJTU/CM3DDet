@@ -8,17 +8,16 @@ Ming Zhu, Chao Ma, Pan Ji, Xiaokang Yang
 
 ## Introduction
 
+- In this paper, we focus on exploring the fusion of images and point clouds for 3D object detection in view of the complementary nature of the two modalities, i.e., images possess more semantic information while point clouds specialize in distance sensing.
 <img src="https://github.com/VISION-SJTU/Cross-modality-3d-object-detection/blob/main/paper_materials/main_architecture.png" width='1500'/><br/>
-
-  In this paper, we focus on exploring the fusion of images and point clouds for 3D object detection in view of the complementary nature of the two modalities, i.e., images possess more semantic information while point clouds specialize in distance sensing.
 
 ## Results
 
+- We evaluate our proposed 3D object detector on the public KITTI [1] benchmark and compare it with previous state-of-the-art methods in both 3D object detection and 2D object detection tasks. Extensive ablation study is also conducted which evaluates how different components affect our model.
 <img src="https://github.com/VISION-SJTU/Cross-modality-3d-object-detection/blob/main/paper_materials/main_results.png" width='1500'/><br/>
-We evaluate our proposed 3D object detector on the public KITTI [1] benchmark and compare it with previous state-of-the-art methods in both 3D object detection and 2D object detection tasks. Extensive ablation study is also conducted which evaluates how different components affect our model.
 
+- To further analyze the ability of our proposed deeply fused multi-modal 3D object detection method, we conduct extensive ablation studies on the KITTI train/val set to explore the effects of our components.
 <img src="https://github.com/VISION-SJTU/Cross-modality-3d-object-detection/blob/main/paper_materials/ablation_study.png" width='1500'/><br/>
-To further analyze the ability of our proposed deeply fused multi-modal 3D object detection method, we conduct extensive ablation studies on the KITTI train/val set to explore the effects of our components.
 
 ## Code
 :herb: **The code of Cross-Modality 3D Object Detection is comming soon!!**
