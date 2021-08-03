@@ -1,4 +1,4 @@
-# Cross_modality_3d_object_detection
+# Cross-Modality 3D Object Detection (CM3DDet)
 
 :herb: **[Cross-Modality 3D Object Detection](https://arxiv.org/abs/2008.10436)**
 
